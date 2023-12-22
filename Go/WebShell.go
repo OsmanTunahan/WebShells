@@ -148,7 +148,7 @@ func runCommand(cmd string) string {
 
 func main() {
 	var ip, port string
-	httpAddr := ":8080" // Default HTTP address
+	httpAddr := ":8080" // Default HTTP address 
 
 	flag.StringVar(&ip, "ip", "", "IP")
 	flag.StringVar(&port, "port", "8080", "Port")
